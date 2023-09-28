@@ -1,0 +1,94 @@
+html{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.logo {
+    max-width: 80%;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.welcome-message {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.tutorial-message{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0;
+
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.see-more-link{
+    color: #0D47A1;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+header{
+    padding: 10px 0;
+    background-color: #0D47A1;
+}
+h1,h2,h5{
+    color: #111;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.profile-pic{
+    border-radius: 1000px;
+}
+.fa-bell{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: -10px;
+}
+.fixed-bottom{
+    background-color: #0D47A1;
+}
+.fixed-bottom .col-3{
+    border-right: 1px solid #1257c0;
+    padding-top: 10px;
+}
+.fixed-bottom a{
+    color: #fff;
+}
+.fixed-bottom .active-item{
+    font-weight: bold;
+}
+.fixed-bottom .active-item i{
+    font-size: 1.5rem;
+}
+.social-card a{
+    color: #111;
+}
+.btn{
+    background-color: #1257c0;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+}
+.fa-circle-plus{
+    font-size: 2rem;
+    color: #0D47A1;
+}
